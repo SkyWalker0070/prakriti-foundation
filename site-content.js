@@ -9,7 +9,7 @@ window.PRAKRITI_CONTENT = {
   contact: {
     email: "hello@prakritifoundationbangla.org",
     phone: "Add phone number",
-    address: "Add office address, city, Bangladesh",
+    address: "Add office address, city, West Bengal",
     hours: "Add contact hours"
   },
   leadership: [
