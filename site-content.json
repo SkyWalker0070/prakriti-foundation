@@ -1,0 +1,57 @@
+
+{
+  "contact": {
+    "email": "hello@prakritifoundationbangla.org",
+    "phone": "Add phone number",
+    "address": "Add office address, city, West Bengal",
+    "hours": "Add contact hours"
+  },
+  "leadership": [
+    {
+      "position": "President",
+      "name": "To be announced",
+      "role": "Founding committee"
+    },
+    {
+      "position": "Vice President",
+      "name": "To be announced",
+      "role": "Founding committee"
+    },
+    {
+      "position": "General Secretary",
+      "name": "To be announced",
+      "role": "Founding committee"
+    },
+    {
+      "position": "Joint Secretary",
+      "name": "To be announced",
+      "role": "Founding committee"
+    },
+    {
+      "position": "Treasurer",
+      "name": "To be announced",
+      "role": "Founding committee"
+    },
+    {
+      "position": "Executive Member",
+      "name": "To be announced",
+      "role": "Founding committee"
+    },
+    {
+      "position": "Executive Member",
+      "name": "To be announced",
+      "role": "Founding committee"
+    }
+  ],
+  "completedWork": [],
+  "plannedWork": [
+    {
+      "title": "Tree planting and care",
+      "description": "A potential focus for responsible planting, aftercare and community awareness. Update this description when plans are confirmed."
+    },
+    {
+      "title": "Environmental awareness",
+      "description": "A potential focus on pollution, waste, biodiversity and environmental protection."
+    }
+  ]
+}
