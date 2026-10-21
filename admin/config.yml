@@ -1,0 +1,53 @@
+
+backend:
+  name: github
+  repo: SkyWalker0070/prakriti-foundation
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+site_url: https://prakritifoundationbangla.netlify.app
+display_url: https://prakritifoundationbangla.netlify.app
+
+collections:
+  - name: "site_content"
+    label: "Website Content"
+    files:
+      - name: "content"
+        label: "Contact, Committee & Work"
+        file: "site-content.js"
+        fields:
+          - label: "Contact Details"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Address", name: "address", widget: "string" }
+              - { label: "Contact Hours", name: "hours", widget: "string" }
+
+          - label: "Committee Members"
+            name: "leadership"
+            widget: "list"
+            fields:
+              - { label: "Position", name: "position", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role / Description", name: "role", widget: "string" }
+
+          - label: "Completed Activities"
+            name: "completedWork"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Planned Activities"
+            name: "plannedWork"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
