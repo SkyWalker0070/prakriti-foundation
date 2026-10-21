@@ -16,7 +16,7 @@ collections:
     files:
       - name: "content"
         label: "Contact, Committee & Work"
-        file: "site-content.js"
+        file: "site-content.json"
         fields:
           - label: "Contact Details"
             name: "contact"
